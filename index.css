@@ -11,3 +11,7 @@
     font-family: 华文行楷;
     src: url(html\yongshan.net\STXINGKA.TTF);
 }
+button{
+    border-radius: 10px;
+    font-weight: bold;
+}
