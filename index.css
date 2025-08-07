@@ -11,3 +11,22 @@
     font-family: 华文行楷;
     src: url(html\yongshan.net\STXINGKA.TTF);
 }
+button{
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
