@@ -4,50 +4,48 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="wdith=device-width,initial-scale=1.0">
         <title>永山文娱有限公司官方网站</title>
-        <link rel="stylesheet" href="./index.css">
-        <style>
-            *{
-                padding: 9;
-                margin: 0;
-            }
-            button{
-                border-radius: 30px;
-                padding: 10px;
-                width: 150px;
-                font-weight: bold;
-                background-color: green;
-                color: white;
-            }
-            h1{
-                text-align: center;
-            }
-            h2{
-                text-align: center;
-            }
-            h3{
-                text-align: center;
-            }
-            h4{
-                text-align: center;
-            }
-            table{
-                text-align: center;
-            }
-            [href*="#section"]{
-                color: black;
-            }
-            [href*="https://cn.strikingly.com/"]{
-                color: white;
-            }
-        </style>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
+        <nav>
+            <ul class="menu">
+                <li><a href="#section1">首页</a></li>
+                <li><a href="">公司概况</a>
+                    <ul class="dropdown">
+                        <li><a href="#section2">公司介绍</a></li>
+                        <li><a href="#section3">公司创始人</a></li>
+                        <li><a href="#section7">公司动态</a></li>
+                    </ul>
+                </li>
+                <li><a href="">员工表及部门职权表</a>
+                    <ul class="dropdown">
+                        <li><a href="#section4-1">员工部分</a></li>
+                        <li><a href="#section4-2">部门部分</a></li>
+                    </ul>
+                </li>
+                <li><a href="">项目运行表</a>
+                    <ul class="dropdown">
+                        <li><a href="#section6-1">胡天八月即飞雪出版社</a></li>
+                        <li><a href="#section6-2">逐浪少年</a></li>
+                        <li><a href="#section6-3">FanS团队</a></li>
+                        <li><a href="#section6-4">物质与非物质文化遗产展览馆</a></li>
+                    </ul>
+                </li>
+                <li><a href="">其它</a>
+                    <ul class="dropdown">
+                        <li><a href="#section8">反馈链接</a></li>
+                        <li><a href="#section9">版本更迭</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <script src="./script.js"></script>
         <b>
             <div style="text-align: center;background-color: skyblue;">
                 <div style="text-align: right;" id="time">Loading…</div>
                 <script src="script.js"></script>
                 <br>
-                <h1 style="font-family: 楷体;color: white;"><font size="12">永山文娱有限公司</font></h1>
+                <h1 style="font-family: 楷体;color: white;"><font size="12"><div id="section1">永山文娱有限公司</div></font></h1>
                 <br>
                 <span style="color: cyan;">By MelonEater</span>
                 <br>
@@ -71,57 +69,8 @@
             <a target="_blank" href="https://github.com/MelonEater251223/yongshan.net"><button>github</button></a>
             <a target="_blank" href="https://github.com/MelonEater251223/yongshan.net/releases"><button>github releases</button></a>
             <a target="_blank" href="https://space.bilibili.com/3546605728827886?spm_id_from=333.1007.0.0"><button>bilibili</button></a>
-            <b>
-            <table border="1" cellspacing="0">
-                <tbody>
-                    <tr>
-                        <td colspan="2">目录</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a href="#section2">公司介绍</a></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a href="#section3">公司创始人</a></td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2"><a href="#section4">公司员工表及部门职权表</a></td>
-                        <td><a href="#section4-1">员工部分</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#section4-2">部门部分</a></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a href="#section5">中央委员会公告</a></td>
-                    </tr>
-                    <tr>
-                        <td rowspan="4"><a href="#section6">项目运行表</a></td>
-                        <td><a href="#section6-1">胡天八月即飞雪出版社</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#section6-2">逐浪少年</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#section6-3">FanS团队</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#section6-4">物质与非物质文化遗产展览馆</a></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a href="#section7">公司动态</a></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a href="#section8">反馈链接</a></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a href="#section9">版本更迭</a></td>
-                    </tr>
-                </tbody>
-                <colgroup>
-                  <col>
-                  <col>
-                </colgroup>
-            </table>
         </div>
+        <b>
         <div style="background-color: gray;color: white;">
             <h2><div id="section2">公司介绍</div></h2>
             <table style="text-align: left;">
@@ -1327,8 +1276,11 @@
                         <td>Version</td>
                     </tr>
                     <tr>
-                        <td>20250816</td>
+                        <td rowspan="2">20250816</td>
                         <td>v1.0.0.0</td>
+                    </tr>
+                    <tr>
+                        <td>v1.0.0.1</td>
                     </tr>
                 </tbody>
             </table>
@@ -1376,7 +1328,7 @@
         <div style="text-align: center;background-color: yellow;">
             <span style="color: red;">未&nbsp;&nbsp;&nbsp;完</span><span style="color:yellow"><font size="1">别</font></span><span style="color:red">待&nbsp;&nbsp;&nbsp;续……</span>
             <br>
-            <span style="color: gray;">Version:v1.0.0.0</span>
+            <span style="color: gray;">Version:v1.0.0.1</span>
             <br>
             <span style="color: blue;">By MelonEater,Ministry of Science and Technology(MOST)</span>
             <br>

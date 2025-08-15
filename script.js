@@ -9,6 +9,7 @@ function updateTime() {
     const timeString = `${year}/${month}/${date} ${hours}:${minutes}:${seconds}`;
     document.getElementById('time').textContent = timeString;
 }
+
 setInterval(updateTime, 1000);
 updateTime();
 const now = new Date();
@@ -17,3 +18,11 @@ const minutes = now.getMinutes().toString().padStart(2, '0');
 const seconds = now.getSeconds().toString().padStart(2, '0');
 const timeString = `${hours}:${minutes}:${seconds}`;
 document.getElementById('time').textContent = timeString;
+
+function navigateToUrl() {
+    var dropdown = document.getElementById("dropdown");
+    var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+    if (selectedValue) {
+        window.location.href = selectedValue;
+    }
+}
