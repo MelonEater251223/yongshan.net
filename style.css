@@ -28,8 +28,14 @@ table{
 [href^="#section"]{
     color: black;
 }
-[href^="https://cn.strikingly.com/"]{
-    color: white;
+.website-accompaniment{
+    background-color: white;
+    width: 60%;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, .1);
 }
 nav {
     background-color: #333;
