@@ -344,6 +344,10 @@ index.html:
         </div>
         <div>
             <h2><div id="section5">网站公告</div></h2>
+            <div class="website-accompaniment">2025.8.19 版本前瞻
+                <br>
+                <span><a target="_blank" href="./writing/20250819.html">点击查看详情</a></span>
+            </div>
             <div class="website-accompaniment">2025.8.16 正式版上线啦！
                 <br>
                 <span><a target="_blank" href="./writing/20250816.html">点击查看详情</a></span>
@@ -353,7 +357,6 @@ index.html:
                 <span><a target="_blank" href="./writing/20250804.html">点击查看详情</a></span>
             </div>
         </div>
-        <hr>
         <div style="background-color: black;color: lime;">
             <h2><div id="section7">公司动态</div></h2>
             <span>董事会&外交部：参与劳改ing……</span>
@@ -571,11 +574,14 @@ version.html:
                     <td>v1.1.0.0</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">20250819</td>
+                    <td rowspan="3">20250819</td>
                     <td>v1.2.0.0</td>
                 </tr>
                 <tr>
                     <td>v1.3.0.0</td>
+                </tr>
+                <tr>
+                    <td>v1.3.1.0</td>
                 </tr>
             </tbody>
             <colgroup>
@@ -980,6 +986,10 @@ tasks.html:
                 <td>以《林羽凡神秘日记金句大赏电子书》《日记争夺战》（系列）呈现</td>
             </tr>
             <tr>
+                <td>项目</td>
+                <td>结果</td>
+            </tr>
+            <tr>
                 <td title="原定为讲述班内与班外同学恋情，后因资料不足被迫停止">雾里寻情2</td>
                 <td>项目停止</td>
             </tr>
@@ -1262,7 +1272,7 @@ tasks.html:
             </tr>
             <tr>
                 <td>日记争夺战（系列）</td>
-                <td>暂时停更</td>
+                <td title="因开发《日记争夺战》将影响《林羽凡神秘日记金句大赏电子书》的进度，FanS团队宣布暂时停止该项目进度">暂时停更</td>
                 <td>暂无下载渠道</td>
             </tr>
             <tr>
@@ -1313,7 +1323,7 @@ writing/20250804.html:
 </html>
 
 
-writing/20250816.html
+writing/20250816.html:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -1336,5 +1346,31 @@ writing/20250816.html
     <p>这个蛋糕不错哦~（细细品尝）</p>
     <p>By MelonEater</p>
     <p>2025.8.16</p>
+</body>
+</html>
+
+
+writing/20250819.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025.8.19·永山文娱有限公司官方网站</title>
+    <style>
+        *{
+            background-color: #DDE6E6;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">网站公告</h1>
+    <hr>
+    <h2>版本前瞻</h2>
+    <p>嘘~这里有一份秘密——</p>
+    <p>期待她的上线！</p>
+    <p>By MelonEater</p>
+    <p>2025.8.19</p>
 </body>
 </html>
