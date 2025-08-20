@@ -36,7 +36,7 @@ index.html:
                 <li><a href="">其它</a>
                     <ul class="dropdown">
                         <li><a target="_blank" href="./version.html">版本更迭</a></li>
-                        <li><a target="_blank" href="./HistoryOfWebsiteDevelopment.txt">网站开发史</a></li>
+                        <li><a target="_blank" href="./HistoryOfWebsiteDevelopment.html">网站开发史</a></li>
                     </ul>
                 </li>
             </ul>
@@ -403,7 +403,7 @@ index.html:
         <div style="text-align: center;background-color: yellow;">
             <span style="color: red;">未&nbsp;&nbsp;&nbsp;完</span><span style="color:yellow"><font size="1">别</font></span><span style="color:red">待&nbsp;&nbsp;&nbsp;续……</span>
             <br>
-            <span style="color: gray;">Version:v1.3.0.0</span>
+            <span style="color: gray;">Version:v1.3.2.0</span>
             <br>
             <span style="color: blue;">By MelonEater</span>
             <br>
@@ -582,6 +582,10 @@ version.html:
                 </tr>
                 <tr>
                     <td>v1.3.1.0</td>
+                </tr>
+                <tr>
+                    <td>20250820</td>
+                    <td>v1.3.2.0</td>
                 </tr>
             </tbody>
             <colgroup>
@@ -1372,5 +1376,59 @@ writing/20250819.html:
     <p>期待她的上线！</p>
     <p>By MelonEater</p>
     <p>2025.8.19</p>
+</body>
+</html>
+
+
+HistoryOfWebsiteDevelopment.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站开发史·永山文娱有限公司官方网站</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <table border="1" cellspacing="0">
+        <tbody>
+            <tr>
+                <th colspan="2">网站开发史</th>
+            </tr>
+            <tr>
+                <td>时间</td>
+                <td>更改</td>
+            </tr>
+            <tr>
+                <td>2025.3.22</td>
+                <td>使用Strikingly初创“胡天八月即飞雪出版社官方网站”，最初域名（后有更改https://huskyaugustsnowflying.mystrikingly.com/、https://hsasf.mystrikingly.com/）：https://hu-sky-august-snow-flying.mystrikingly.com/</td>
+            </tr>
+            <tr>
+                <td>2025.5.27</td>
+                <td>改“胡天八月即飞雪出版社官方网站”为“永山文娱有限公司官方网站”，域名更改为：https://melon-net.mystrikingly.com/</td>
+            </tr>
+            <tr>
+                <td>2025.6.4</td>
+                <td>开始使用html创建网站（同时废除原Strikingly网站）</td>
+            </tr>
+            <tr>
+                <td>2025.8.4</td>
+                <td>网站预览版（v1.0-Beta-1-20250804）通过github正式上线，域名：https://meloneater251223.giyhub.io/meloneater.github.io/</td>
+            </tr>
+            <tr>
+                <td>2025.8.6</td>
+                <td>域名更改为：https://meloneater251223.github.io/yongshan.net/</td>
+            </tr>
+            <tr>
+                <td>2025.8.16</td>
+                <td>网站正式版（v1.0.0.0）正式上线</td>
+            </tr>
+        </tbody>
+        <colgroup>
+            <col>
+            <col>
+        </colgroup>
+    </table>
 </body>
 </html>
