@@ -79,3 +79,14 @@ nav {
 .menu > li:hover .dropdown {
     display: block;
 }
+@keyframes changeText {
+    1%,25%{content:"你好，世界！";}
+    26%,50%{content:"欢迎来到永山文娱有限公司官方网站！";}
+    51%,75%{content:"想同她做朋友是真，内心却也已经越过了友谊的浅滩。";}
+    76%,100%{content:"等待而已，也叫努力？是在等别人离开，还是等自己放弃？"}
+}
+#text::after{
+    display:inline-block;
+    animation:changeText 12s infinite;
+    content:"你好，世界！";
+}
