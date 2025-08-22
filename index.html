@@ -69,7 +69,7 @@
         </b>
         <div style="color: red;font-family: 楷体;font-size: larger;background-color: skyblue;text-align: center;">
             <br>
-            <span>警告：</span>
+            <span>⚠警告：</span>
             <br>
             <span>该网站不隶属于莆田九中，其包含的内容也未得到莆田九中的认可或以其他方式赞助。</span>
             <br>
@@ -140,7 +140,7 @@
         <div style="text-align: center;background-color: yellow;">
             <span style="color: red;">未&nbsp;&nbsp;&nbsp;完</span><span style="color:yellow"><font size="1">别</font></span><span style="color:red">待&nbsp;&nbsp;&nbsp;续……</span>
             <br>
-            <span style="color: gray;">Version:v1.5.0.2</span>
+            <span style="color: gray;">Version:v1.5.0.3</span>
             <br>
             <span style="color: blue;">By MelonEater</span>
             <br>
@@ -148,5 +148,18 @@
             <br>
             <span style="color: blue;">©2025 Yongshan Entertainment Co., Ltd</span>
         </div>
+        <audio src="./music/FinalSuspect.wav" id="vd" preload="auto" autoplay="ture" loop="loop"></audio>
+        <script type="text/Javascript">
+            window.onload=function(){
+                setInterval("toggleSound()",100);
+            }
+            function toggleSound(){
+                var music=document.getElementById("vd");
+                if(music.paused){
+                    music.paused=false;
+                    music.play();
+                }
+            }
+        </script>
     </body>
 </html>
