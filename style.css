@@ -24,9 +24,14 @@ h4{
 }
 table{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 [href^="#section"]{
     color: black;
+}
+[href^="https://meloneater251223.github.io/pt9z-c202303.net"]{
+    color: pink;
 }
 .website-accompaniment{
     text-align: center;
@@ -80,13 +85,13 @@ nav {
     display: block;
 }
 @keyframes changeText {
-    1%,25%{content:"你好，世界！";}
-    26%,50%{content:"欢迎来到永山文娱有限公司官方网站！";}
-    51%,75%{content:"想同她做朋友是真，内心却也已经越过了友谊的浅滩。";}
-    76%,100%{content:"等待而已，也叫努力？是在等别人离开，还是等自己放弃？"}
+    1%,25%{content:"欢迎来到永山文娱有限公司官方网站！";}
+    26%,50%{content:"对于一个人来说，最恐怖的不是外有死神，不是家有内鬼，而是自己最依靠的人没了。";}
+    51%,75%{content:"透过重重迷雾去寻查这些事情下的秘密、缘由、动机、结局。";}
+    76%,100%{content:"爱与恨，此兴彼落，情感的变幻如弹指一挥间，往往就只存在于某一个瞬间。"}
 }
 #text::after{
     display:inline-block;
     animation:changeText 12s infinite;
-    content:"你好，世界！";
+    content:"欢迎来到永山文娱有限公司官方网站！";
 }
