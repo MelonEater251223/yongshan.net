@@ -42,6 +42,24 @@ table{
     padding: 50px;
     box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, .1);
 }
+.warning{
+    color: red;
+    font-family: 楷体;
+    font-size: larger;
+    text-align: center;
+    background-color: #DDE6E6;
+    width: 80%;
+    margin: auto;
+    border-radius: 30px;
+}
+.news{
+    border: 3px solid black;
+    color: black;
+    background-color: #DDE6E6;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
 nav {
     background-color: #333;
 }
