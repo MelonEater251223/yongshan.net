@@ -7,14 +7,10 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./picture/yongshan.ico" type="image/x-icon">
     <style>
-        *{
-            background-color: gray;
-            color: white;
-        }
         li{
             text-align: center;
         }
-        img{
+        .img{
             border: 3px solid pink;
         }
         table{
@@ -26,9 +22,49 @@
     </style>
 </head>
 <body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#section-home">首页</a>
+                <ul class="dropdown">
+                    <li><a href="#section-announcement">网站公告</a></li>
+                    <li><a href="#section-development">公司动态</a></li>
+                    <li><a href="#section-url">反馈链接</a></li>
+                </ul>
+            </li>
+            <li><a href="">公司概况</a>
+                <ul class="dropdown">
+                    <li><a target="_blank" href="./introduction.html">公司介绍</a></li>
+                    <li><a target="_blank" href="./CentralCommitteeAnnouncement.txt">中央委员会公告</a></li>
+                    <li><a target="_blank" href="./roles.html">员工表及部门职权表</a></li>
+                    <li><a target="_blank" href="./tasks.html">项目运行表</a></li>
+                </ul>
+            </li>
+            <li><a href="">其它功能</a>
+                <ul class="dropdown">
+                    <li><a target="_blank" href="./version.html">版本更迭</a></li>
+                    <li><a target="_blank" href="./HistoryOfWebsiteDevelopment.html">网站开发史</a></li>
+                    <li><a target="_blank" href="./game.html">游戏</a></li>
+                    <li><a target="_blank" href=""><s>音乐（尚未开发）</s></a></li>
+                </ul>
+            </li>
+            <li><a href="">链接</a>
+                <ul class="dropdown">
+                    <li><a target="_blank" href="https://github.com/MelonEater251223/yongshan.net">GitHub</a></li>
+                    <li><a target="_blank" href="https://github.com/MelonEater251223/yongshan.net/releases">GitHub Download</a></li>
+                    <li><a target="_blank" href="https://space.bilibili.com/3546605728827886?spm_id_from=333.1007.0.0">Bilibili</a></li>
+                    <li><a target="_blank" href="https://www.douyin.com/user/MS4wLjABAAAAKQaEQ-dTW8JAxg3VHCex5ff4ofezui9NnLzjCxkAWb2hWE17vxxtAYTp-Nu4d6fR?from_tab_name=main">Douyin</a></li>
+                    <li><a target="_blank" href="https://www.kuaishou.cn/profile/3xzggqz282fmwbq">Kuaishou</a></li>
+                </ul>
+            </li>
+            <div style="position: fixed;left: 85%;top: 12px;color: white;font-weight: bold;" id="time">Loading…</div>
+            <script src="script.js"></script>
+            <img src="./picture/yongshan.ico" alt="" width="30px" class="ico">
+        </ul>
+    </nav>
+    <br><br>
     <h2>公司介绍</h2>
     <div>
-        <p><span style="color: cyan;">永山文娱有限公司(Yongshan Entertainment Co.,Ltd)</span>成立于2024年12月25日，是一家集文学创作、数字娱乐、文化传播于一体的综合性文娱公司。公司总部位于中国福建省莆田市，致力于为广大用户提共高质量的文化娱乐产品和服务。</p>
+        <p><span style="color: purple;">永山文娱有限公司(Yongshan Entertainment Co.,Ltd)</span>成立于2024年12月25日，是一家集文学创作、数字娱乐、文化传播于一体的综合性文娱公司。公司总部位于中国福建省莆田市，致力于为广大用户提共高质量的文化娱乐产品和服务。</p>
         <p>公司名称“永山”寓意着<span style="color: brown;">坚韧不拔、永恒不变</span>的精神，象征着我们<span style="color: brown;">对文化传承和创新的执着追求</span>。我们的使命是<span style="color: brown;">通过丰富多样的文娱内容，满足不同年龄层次和兴趣爱好的用户需求，推动文化产业的发展</span>。</p>
         <p>公司核心业务涵盖<span style="color: brown;">小说出版、电子书发行、在线阅读平台运营以及多媒体内容制作</span>等领域。通过整合优质资源和创新技术，永山文娱有限公司不断推动文化产业的发展，满足用户多样化的阅读需求。</p>
         <p>作为一家年轻且充满活力的企业，永山文娱有限公司秉持“<span style="color: skyblue;">创新、品质、用户至上</span>”的经营理念，积极探索数字化转型之路，努力打造具有国际竞争力的文娱品牌。</p>
@@ -61,17 +97,17 @@
         </tr>
         <tr>
             <td>风无依</td>
-            <td><img src="./picture/firehot.jpg" alt="" width="50px" height="50px"></td>
+            <td><img class="img" src="./picture/firehot.jpg" alt="" width="50px" height="50px"></td>
             <td>江西省上饶市</td>
             <td><span style="color: pink;">3班</span>著名文学家、漫画家</td>
-            <td><span style="color: cyan;">永山文娱有限公司</span>董事长</td>
+            <td><span style="color: purple;">永山文娱有限公司</span>董事长</td>
         </tr>
         <tr>
             <td>食瓜之众</td>
-            <td><img style="border-radius: 100px;" src="./picture/meloneater.ico" alt="" width="50px" height="50px"></td>
+            <td><img class="img" style="border-radius: 100px;" src="./picture/meloneater.ico" alt="" width="50px" height="50px"></td>
             <td>福建省莆田市</td>
             <td><span style="color: pink;">3班</span>著名文学家、海王</td>
-            <td><span style="color: cyan;">永山文娱有限公司</span>副董事长</td>
+            <td><span style="color: purple;">永山文娱有限公司</span>副董事长</td>
         </tr>
     </table>
     <li>风无依</li>
