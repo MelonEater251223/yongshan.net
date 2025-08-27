@@ -62,6 +62,8 @@ table{
 }
 nav {
     background-color: #333;
+    width: 100%;
+    position: fixed;
 }
 .menu {
     list-style-type: none;
