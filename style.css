@@ -65,6 +65,9 @@ table{
     top: 12px;
     left: 97%;
 }
+.no-underline{
+    text-decoration: none;
+}
 nav {
     background-color: #333;
     width: 100%;
