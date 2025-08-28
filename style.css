@@ -63,7 +63,14 @@ table{
 .ico{
     position: absolute;
     top: 12px;
-    left: 97%;
+    right: 3%;
+}
+.time{
+    position: fixed;
+    top: 12px;
+    right: 5%;
+    color: white;
+    font-weight: bold;
 }
 .no-underline{
     text-decoration: none;
