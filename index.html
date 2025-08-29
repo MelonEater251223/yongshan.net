@@ -168,6 +168,19 @@
             color: white;
         }
     </style>
+    <script type="text.javascript">
+        var system={},
+        var p=navigator.platform;
+        system.win=p.indexOf("Win")===0;
+        system.mac=p.indexOf("Mac")===0;
+        system.x11=(p.indexOf("X11")===0)||(p.indexOf("Linux")===0);
+        if(system.win||system.mac||system.x11){
+            window.location.href="";
+        }
+        else{
+            window.location.href="./stop.html";
+        }
+    </script>
 </head>
 <body>
     <div class="fade-in">

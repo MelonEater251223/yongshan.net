@@ -6,6 +6,19 @@
     <title>网站开发史·永山文娱有限公司官方网站</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./picture/yongshan.ico" type="image/x-icon">
+    <script type="text.javascript">
+        var system={},
+        var p=navigator.platform;
+        system.win=p.indexOf("Win")===0;
+        system.mac=p.indexOf("Mac")===0;
+        system.x11=(p.indexOf("X11")===0)||(p.indexOf("Linux")===0);
+        if(system.win||system.mac||system.x11){
+            window.location.href="";
+        }
+        else{
+            window.location.href="./stop.html";
+        }
+    </script>
 </head>
 <body>
     <nav>

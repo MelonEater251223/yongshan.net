@@ -6,6 +6,19 @@
         <title>永山文娱有限公司官方网站</title>
         <link rel="stylesheet" href="./style.css">
         <link rel="icon" href="./picture/yongshan.ico" type="image/x-icon">
+        <script type="text.javascript">
+            var system={},
+            var p=navigator.platform;
+            system.win=p.indexOf("Win")===0;
+            system.mac=p.indexOf("Mac")===0;
+            system.x11=(p.indexOf("X11")===0)||(p.indexOf("Linux")===0);
+            if(system.win||system.mac||system.x11){
+                window.location.href="";
+            }
+            else{
+                window.location.href="./stop.html";
+            }
+        </script>
     </head>
     <body>
         <nav>
@@ -152,7 +165,7 @@
         <div style="text-align: center;background-color: yellow;">
             <span style="color: red;">未&nbsp;&nbsp;&nbsp;完</span><span style="color:yellow"><font size="1">别</font></span><span style="color:red">待&nbsp;&nbsp;&nbsp;续……</span>
             <br>
-            <span style="color: gray;">Version:v1.7.3.0（该版本为试验性，bug可能微多）</span>
+            <span style="color: gray;">Version:v1.7.4.0（该版本为试验性，bug可能微多）</span>
             <br>
             <span style="color: blue;">By MelonEater</span>
             <br>
