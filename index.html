@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="12;url=./home.html">
+    <meta http-equiv="refresh" content="25;url=./home.html">
     <title>永山文娱有限公司官方网站</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./picture/yongshan.ico" type="image/x-icon">
+    <link rel="prefetch" href="./home.html">
+    <link rel="prefetch" href="./writing.html">
+    <link rel="prefetch" href="./introduction.html">
+    <link rel="prefetch" href="./CentralCommitteeAnnouncement.txt">
+    <link rel="prefetch" href="./roles.html">
+    <link rel="prefetch" href="./tasks.html">
+    <link rel="prefetch" href="./version.html">
+    <link rel="prefetch" href="./HistoryOfWebsiteDevelopment.html">
+    <link rel="prefetch" href="./game.html">
+    <link rel="prefetch" href="./game/amongus.html">
+    <link rel="prefetch" href="./studying.html">
+    <link rel="prefetch" href="./picture/background.jpg">
+    <link rel="prefetch" href="./picture/yongshan.ico">
+    <link rel="prefetch" href="./picture/yongshan-text.png">
+    <link rel="prefetch" href="./picture/false.png">
     <style>
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -133,7 +148,7 @@
         #dh::after{
             display: inline-block;
             animation: changeText 10s;
-            content: "加载完成！";
+            content: "努力加载中...";
         }
         .dhtext{
             font-weight: bold;
@@ -143,7 +158,6 @@
         }
         img{
             border: 3px solid white;
-            box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, -1);
         }
     </style>
 </head>
@@ -151,6 +165,6 @@
     <div class="fade-in">
         <img src="./picture/yongshan.ico" alt="" width="180px">
     </div>
-    <div class="dhtext" id="dh">加载进度：</div>
+    <div class="dhtext" id="dh"></div>
 </body>
 </html>
