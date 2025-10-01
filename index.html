@@ -7,41 +7,17 @@
     <title>永山文娱有限公司官方网站</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./picture/yongshan.ico" type="image/x-icon">
-    <link rel="prefetch" href="./picture/background.jpg">
     <link rel="prefetch" href="./picture/yongshan.ico">
-    <link rel="prefetch" href="./picture/yongshan-text.png">
-    <link rel="prefetch" href="./picture/false.png">
     <link rel="prefetch" href="./home.html">
-    <link rel="prefetch" href="./writing.html">
-    <link rel="prefetch" href="./introduction.html">
-    <link rel="prefetch" href="./CentralCommitteeAnnouncement.txt">
-    <link rel="prefetch" href="./roles.html">
-    <link rel="prefetch" href="./tasks.html">
-    <link rel="prefetch" href="./version.html">
-    <link rel="prefetch" href="./HistoryOfWebsiteDevelopment.html">
-    <link rel="prefetch" href="./game.html">
-    <link rel="prefetch" href="./game/amongus.html">
-    <link rel="prefetch" href="./studying.html">
     <style>
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
-        body{
-            margin: 0;
-            padding: 0;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            background: url(./picture/background.jpg) no-repeat center center fixed;
-            background-size: cover;
-            -webkit-background-size: cover;
-            -o-background-size: cover;
-        }
         .fade-in{
             animation: fadeIn 10s ease-in-out;
             text-align: center;
-            margin-top: 200px;
+            margin-top: 160px;
         }
         @keyframes changeText{
             0%,1%{content: "1%";color: red;}
@@ -152,7 +128,7 @@
             color:green
         }
         .dhtext{
-            font-weight: bold;
+            font-weight: bolder;
             font-size: larger;
             text-align: center;
         }
@@ -164,28 +140,16 @@
             padding: 10px;
             width: 100px;
             font-weight: bold;
-            opacity: 0.5;
             color: white;
         }
     </style>
-    <script type="text.javascript">
-        var system={},
-        var p=navigator.platform;
-        system.win=p.indexOf("Win")===0;
-        system.mac=p.indexOf("Mac")===0;
-        system.x11=(p.indexOf("X11")===0)||(p.indexOf("Linux")===0);
-        if(system.win||system.mac||system.x11){
-            window.location.href="";
-        }
-        else{
-            window.location.href="./stop.html";
-        }
-    </script>
 </head>
-<body>
+<body style="background-color: cyan;">
     <div class="fade-in">
         <img src="./picture/yongshan.ico" alt="" width="180px">
     </div>
+    <h1 style="font-family: STXINGKAI;">永山文娱有限公司</h1>
+    <h2 style="font-family: STHUPO;">yongshan.net</h2>
     <div class="dhtext" id="dh"></div>
     <div style="text-align: center;">
         <a href="./home.html"><button class="home">跳过加载</button></a>

@@ -27,6 +27,9 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
+nav{
+    font-weight: bold;
+}
 [href^="#section"]{
     color: black;
 }
@@ -42,13 +45,23 @@ table{
     padding: 50px;
     box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, .1);
 }
+.feedback-box{
+    background-color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, .1);
+}
 .warning{
     color: red;
     font-family: 楷体;
     font-size: larger;
     text-align: center;
     background-color: #DDE6E6;
-    width: 80%;
+    width: 70%;
     margin: auto;
     border-radius: 30px;
 }
@@ -67,15 +80,16 @@ table{
 }
 .time{
     position: fixed;
-    top: 12px;
-    right: 5%;
-    color: white;
+    top: 95%;
+    right: 12px;
     font-weight: bold;
+    color: lime;
+    z-index:3;
 }
 .no-underline{
     text-decoration: none;
 }
-nav {
+.nav {
     background-color: #333;
     width: 100%;
     position: fixed;
@@ -129,4 +143,9 @@ nav {
     display:inline-block;
     animation:changeText 12s infinite;
     content:"欢迎来到永山文娱有限公司官方网站！";
+}
+@font-face {
+    font-family: 'MyFont';
+    src: url('./font/STHUPO.TTF') format('STHUPO');
+    src: url('./font/STXINGKA.TTF') format('STXINGKA');
 }

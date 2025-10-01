@@ -3,52 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>游戏·永山文娱有限公司官方网站</title>
+    <title>游戏 | 永山文娱有限公司官方网站</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./picture/yongshan.ico" type="image/x-icon">
+    <link rel="prefetch" href="./picture/AmongUs.png">
+    <link rel="prefetch" href="./picture/SpaceParty.png">
+    <link rel="prefetch" href="./picture/SuperSus.png">
+    <link rel="prefetch" href="./picture/Genshin.png">
+    <link rel="prefetch" href="./picture/SR.png">
+    <link rel="prefetch" href="./picture/PVP.png">
     <style>
         .game{
-            background-color: lemonchiffon;
+            background-color: black;
+            color: white;
             text-align: center;
             border-radius: 30px;
+            margin: auto;
+            margin-top: 10px;
+            width: 80%;
         }
         img{
             border-radius: 20px;
         }
     </style>
-    <script type="text.javascript">
-        var system={},
-        var p=navigator.platform;
-        system.win=p.indexOf("Win")===0;
-        system.mac=p.indexOf("Mac")===0;
-        system.x11=(p.indexOf("X11")===0)||(p.indexOf("Linux")===0);
-        if(system.win||system.mac||system.x11){
-            window.location.href="";
-        }
-        else{
-            window.location.href="./stop.html";
-        }
-    </script>
 </head>
 <body>
-    <nav>
+    <div class="time" id="time">Loading…</div>
+    <script src="script.js"></script>
+    <nav class="nav">
         <ul class="menu">
             <li><a href="./home.html">首页</a></li>
             <li><a href="">公司概况</a>
                 <ul class="dropdown">
                     <li><a href="./introduction.html">公司介绍</a></li>
-                    <li><a href="./CentralCommitteeAnnouncement.txt">中央委员会公告</a></li>
-                    <li><a href="./roles.html">员工表及部门职权表</a></li>
+                    <li><a href="./writing.html">公司公告</a></li>
                     <li><a href="./tasks.html">项目运行表</a></li>
+                    <li><a href="./feedback.html">反馈</a></li>
                 </ul>
             </li>
             <li><a href="">其它功能</a>
                 <ul class="dropdown">
                     <li><a href="./version.html">版本更迭</a></li>
-                    <li><a href="./HistoryOfWebsiteDevelopment.html">网站开发史</a></li>
                     <li><a href="./game.html">游戏</a></li>
-                    <li><a href="./studying.html">教程区</a></li>
-                    <li><a href=""><s>音乐（尚未开发）</s></a></li>
+                <li><a href="./studying.html">教程区</a></li>
                 </ul>
             </li>
             <li><a href="">链接</a>
@@ -60,12 +57,37 @@
                     <li><a target="_blank" href="https://www.kuaishou.cn/profile/3xzggqz282fmwbq">Kuaishou</a></li>
                 </ul>
             </li>
-             <div class="time" id="time">Loading…</div>
-            <script src="script.js"></script>
-            <img src="./picture/yongshan.ico" alt="" width="30px" class="ico">
         </ul>
     </nav>
-    <br><br>
+    <nav>
+        <ul class="menu">
+            <li><a href="./home.html">首页</a></li>
+            <li><a href="">公司概况</a>
+                <ul class="dropdown">
+                    <li><a href="./introduction.html">公司介绍</a></li>
+                    <li><a href="./writing.html">公司公告</a></li>
+                    <li><a href="./tasks.html">项目运行表</a></li>
+                    <li><a href="./feedback.html">反馈</a></li>
+                </ul>
+            </li>
+            <li><a href="">其它功能</a>
+                <ul class="dropdown">
+                    <li><a href="./version.html">版本更迭</a></li>
+                    <li><a href="./game.html">游戏</a></li>
+                <li><a href="./studying.html">教程区</a></li>
+                </ul>
+            </li>
+            <li><a href="">链接</a>
+                <ul class="dropdown">
+                    <li><a target="_blank" href="https://github.com/MelonEater251223/yongshan.net">GitHub</a></li>
+                    <li><a target="_blank" href="https://github.com/MelonEater251223/yongshan.net/releases">GitHub Download</a></li>
+                    <li><a target="_blank" href="https://space.bilibili.com/3546605728827886?spm_id_from=333.1007.0.0">Bilibili</a></li>
+                    <li><a target="_blank" href="https://www.douyin.com/user/MS4wLjABAAAAKQaEQ-dTW8JAxg3VHCex5ff4ofezui9NnLzjCxkAWb2hWE17vxxtAYTp-Nu4d6fR?from_tab_name=main">Douyin</a></li>
+                    <li><a target="_blank" href="https://www.kuaishou.cn/profile/3xzggqz282fmwbq">Kuaishou</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
     <div style="text-align: center;">
         <h2>我们的游戏</h2>
         <i>与我们团队合作的游戏<s>（其实是我们玩的游戏doge）</s></i>
@@ -75,13 +97,9 @@
             <img src="./picture/AmongUs.png" alt="" width="100px">
             <br>
             <h3>Among Us</h3>
-            <p>《Among Us》的游戏场景设置在太空等地，4-15名玩家可联机游玩，其中藏匿了1-3名伪装者。船员需要在伪装者击杀所有人之前合作完成任务。</p>
-            <a target="_blank" href="https://www.innersloth.com/games/among-us/"><button>进入官网</button></a>
             <a target="_blank" href="./game/amongus.html"><button>查看详情</button></a>
-            <a target="_blank" href="https://mingyoushe.github.io/Amongus-MOD-China"><button title="引用自Among Us游戏UP主名游社，部分信息可能更新延迟">模组一览（名游社）</button></a>
             <br><br>
         </div>
-        <hr>
         <div class="game">
             <img src="./picture/SpaceParty.png" alt="" width="100px">
             <br>
@@ -90,16 +108,14 @@
             <a target="_blank" href="https://www.spaceparty.cn/"><button>进入官网</button></a>
             <br><br>
         </div>
-        <hr>
         <div class="game">
             <img src="./picture/SuperSus.png" alt="" width="100px">
             <br>
             <h3>Super Sus</h3>
-            <p>太空杀国际服。</p>
+            <p>Premier 3D Social Deduction Gamewith Global Players.</p>
             <a target="_blank" href="https://www.supersus.io/en"><button>进入官网</button></a>
             <br><br>
         </div>
-        <hr>
         <div class="game">
             <img src="./picture/Genshin.png" alt="" width="100px">
             <br>
@@ -108,7 +124,6 @@
             <a target="_blank" href="https://ys.mihoyo.com/"><button>进入官网</button></a>
             <br><br>
         </div>
-        <hr>
         <div class="game">
             <img src="./picture/SR.png" alt="" width="100px">
             <br>
@@ -117,7 +132,6 @@
             <a target="_blank" href="https://sr.mihoyo.com/"><button>进入官网</button></a>
             <br><br>
         </div>
-        <hr>
         <div class="game">
             <img src="./picture/PVP.png" alt="" width="100px">
             <br>

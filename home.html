@@ -6,45 +6,38 @@
         <title>永山文娱有限公司官方网站</title>
         <link rel="stylesheet" href="./style.css">
         <link rel="icon" href="./picture/yongshan.ico" type="image/x-icon">
-        <script type="text.javascript">
-            var system={},
-            var p=navigator.platform;
-            system.win=p.indexOf("Win")===0;
-            system.mac=p.indexOf("Mac")===0;
-            system.x11=(p.indexOf("X11")===0)||(p.indexOf("Linux")===0);
-            if(system.win||system.mac||system.x11){
-                window.location.href="";
+        <style>
+            .footer{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 85px;
+                background-color: lemonchiffon;
+                text-align: center;
+                z-index: 2;
             }
-            else{
-                window.location.href="./stop.html";
-            }
-        </script>
+        </style>
     </head>
-    <body>
-        <nav>
+    <body style="background-color: lemonchiffon;">
+        <div class="time" id="time">Loading…</div>
+        <script src="script.js"></script>
+        <nav class="nav">
             <ul class="menu">
-                <li><a href="./home.html">首页</a>
-                    <ul class="dropdown">
-                        <li><a href="#section-announcement">网站公告</a></li>
-                        <li><a href="#section-development">公司动态</a></li>
-                        <li><a href="#section-url">反馈链接</a></li>
-                    </ul>
-                </li>
+                <li><a href="./home.html">首页</a></li>
                 <li><a href="">公司概况</a>
                     <ul class="dropdown">
                         <li><a href="./introduction.html">公司介绍</a></li>
-                        <li><a href="./CentralCommitteeAnnouncement.txt">中央委员会公告</a></li>
-                        <li><a href="./roles.html">员工表及部门职权表</a></li>
+                        <li><a href="./writing.html">公司公告</a></li>
                         <li><a href="./tasks.html">项目运行表</a></li>
+                        <li><a href="./feedback.html">反馈</a></li>
                     </ul>
                 </li>
                 <li><a href="">其它功能</a>
                     <ul class="dropdown">
                         <li><a href="./version.html">版本更迭</a></li>
-                        <li><a href="./HistoryOfWebsiteDevelopment.html">网站开发史</a></li>
                         <li><a href="./game.html">游戏</a></li>
                     <li><a href="./studying.html">教程区</a></li>
-                        <li><a href=""><s>音乐（尚未开发）</s></a></li>
                     </ul>
                 </li>
                 <li><a href="">链接</a>
@@ -56,122 +49,75 @@
                         <li><a target="_blank" href="https://www.kuaishou.cn/profile/3xzggqz282fmwbq">Kuaishou</a></li>
                     </ul>
                 </li>
-                <div class="time" id="time">Loading…</div>
-                <script src="script.js"></script>
-                <img src="./picture/yongshan.ico" alt="" width="30px" class="ico">
+            </ul>
+        </nav>
+        <nav>
+            <ul class="menu">
+                <li><a href="./home.html">首页</a></li>
+                <li><a href="">公司概况</a>
+                    <ul class="dropdown">
+                        <li><a href="./introduction.html">公司介绍</a></li>
+                        <li><a href="./writing.html">公司公告</a></li>
+                        <li><a href="./tasks.html">项目运行表</a></li>
+                        <li><a href="./feedback.html">反馈</a></li>
+                    </ul>
+                </li>
+                <li><a href="">其它功能</a>
+                    <ul class="dropdown">
+                        <li><a href="./version.html">版本更迭</a></li>
+                        <li><a href="./game.html">游戏</a></li>
+                        <li><a href="./studying.html">教程区</a></li>
+                    </ul>
+                </li>
+                <li><a href="">链接</a>
+                    <ul class="dropdown">
+                        <li><a target="_blank" href="https://github.com/MelonEater251223/yongshan.net">GitHub</a></li>
+                        <li><a target="_blank" href="https://github.com/MelonEater251223/yongshan.net/releases">GitHub Download</a></li>
+                        <li><a target="_blank" href="https://space.bilibili.com/3546605728827886?spm_id_from=333.1007.0.0">Bilibili</a></li>
+                        <li><a target="_blank" href="https://www.douyin.com/user/MS4wLjABAAAAKQaEQ-dTW8JAxg3VHCex5ff4ofezui9NnLzjCxkAWb2hWE17vxxtAYTp-Nu4d6fR?from_tab_name=main">Douyin</a></li>
+                        <li><a target="_blank" href="https://www.kuaishou.cn/profile/3xzggqz282fmwbq">Kuaishou</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
         <b>
-            <div style="text-align: center;background-color: lemonchiffon;">
-                <br><br><br>
-                <img src="./picture/yongshan-text.png" alt="" width="300px">
+            <div style="text-align: center;">
                 <br>
-                <span style="color: pink;">赞助：福建省莆田第九中学初中2023级03班全体学生</span>
+                <h1 style="font-family: STXINGKAI;color: skyblue;">永山文娱有限公司</h1>
+                <h2 style="font-family: STHUPO;">yongshan.net</h2>
+                <br>
+                <span style="color: pink;">赞助：福建省莆田第九中学初中2023级11班（原03班）全体学生</span>
                 <br>
                 <span style="color: brown;">公司地址：福建省莆田市荔城区拱辰街道仪莘路1093号</span>
                 <br>
                 <span style="color: brown;">（莆田第九中学）</span>
                 <br><br>
-                <div style="background-color: lemonchiffon;color: black;text-align: center;" id="text"></div>
+                <div style="background-color: lemonchiffon;color: black;text-align: center;font-family: STXINGKAI;" id="text"></div>
                 <br>
             </div>
         </b>
-        <div style="background-color: lemonchiffon;">
+        <div>
             <div class="warning">
-                <br>
                 <span>⚠警告：</span>
                 <br>
                 <span>该网站不隶属于莆田九中，其包含的内容也未得到莆田九中的认可或以其他方式赞助。</span>
                 <br>
-                <span>该网站仅为莆田九中C23级03班提供资源。</span>
+                <span>该网站仅为莆田九中C23级11班（原03班）提供资源。</span>
                 <br><br>
                 <span>⚠提示：</span>
                 <br>
-                <span>网站所有内容编写效果基于电脑端，手机端横屏观看效果更佳</span>
-                <br>
-                <span>电脑端鼠标指针指向部分内容时会显示隐藏内容</span>
-                <br><br>
+                <span>部分<code>title</code>属性内容需鼠标指针触发</span>
             </div>
             <br>
         </div>
         <b>
-        <div>
-            <h2><div id="section-announcement">网站公告</div></h2>
-            <div class="website-accompaniment">2025.8.29
-                <br>
-                <span>网站大更新2.0</span>
-                <br>
-                <a class="no-underline" href="./writing/20250829.html">点击查看详情</a>
-            </div>
-            <div class="website-accompaniment">2025.8.24
-                <br>
-                <span>招新公告</span>
-                <br>
-                <a class="no-underline" href="./writing/20250824-2.html">点击查看详情</a>
-            </div>
-            <div class="website-accompaniment">2025.8.24
-                <br>
-                <span>网站大更新</span>
-                <br>
-                <a class="no-underline" href="./writing/20250824.html">点击查看详情</a>
-            </div>
-            <div style="text-align: center;">
-                <a href="./writing.html"><button>查看更多网站公告</button></a>
-            </div>
-        <br>
-        </div>
-        <div style="background-color: black;color: lime;">
-            <h2><div id="section-development">公司动态</div></h2>
-            <span>董事会&外交部：参与劳改ing……</span>
+        <div class="footer">
+            <hr>
+            <span style="color: red;">未&nbsp;&nbsp;&nbsp;完</span><span style="color:lemonchiffon"><font size="1">别</font></span><span style="color:red">待&nbsp;&nbsp;&nbsp;续……</span>
             <br>
-            <span>中央委员会：这个部门其实真的很闲，只有召开大会时才用得上……（中央委员会主席said）</span>
+            <span style="color: gray;">Version:v1.8.0.0</span>
             <br>
-            <span>监察委员会：放心吧，这个公司不会出现贪污的，因为根本没收入！</span>
-            <br>
-            <span>财务部：工资还可以再拖2个月</span>
-            <br>
-            <span><s>歌姬</s>科技部：开发网站（你现在所看到的网站是科技部人员每天只睡3小时肝出来的）</span>
-            <br>
-            <span>胡天八月即飞雪出版社：哈哈哈爷的《雾里寻情》终于更完了！！！……什么？还有那么多作品没写？*<s>（一种植物兼一种运动方式）</s>！</span>
-            <br>
-            <span>逐浪少年：您好，您拨打的用户暂时无人接听，请您稍候再拨……</span>
-            <br>
-            <span>FanS团队：正在努力开发《林羽凡神秘日记金句大赏电子书》</span>
-            <br>
-            <span>物质与非物质文化遗产展览馆：这绝对是最最最清闲的部门！</span>
-            <br><br>
-            <div style="text-align: right;">
-                <span>动态来源：永山文娱有限公司中央委员会</span>
-            </div>
-        </div>
-        <h2><div id="section-url">反馈链接</div></h2>
-        <div style="text-align: center;">
-            <div style="margin: 10px;">
-                <a target="_blank" href="https://github.com/MelonEater251223/yongshan.net"><button style="background-color: #3A3A3A;">github</button></a>
-                <a target="_blank" href="https://space.bilibili.com/3546605728827886?spm_id_from=333.1007.0.0"><button style="background-color: #FB7299;">bilibili</button></a>
-                <a target="_blank" href="https://www.douyin.com/user/MS4wLjABAAAAKQaEQ-dTW8JAxg3VHCex5ff4ofezui9NnLzjCxkAWb2hWE17vxxtAYTp-Nu4d6fR?from_tab_name=main"><button style="background-color: black;">douyin</button></a>
-                <a target="_blank" href="https://www.kuaishou.cn/profile/3xzggqz282fmwbq"><button style="background-color: #FF3D13;">kuaishou</button></a>
-            </div>
-            <div style="margin: 10px;">
-                <span>其它反馈方式：</span>
-                <br>
-                <span>邮箱：meloneater_2023@qq.com</span>
-                <br>
-                <span>微信：暂不支持微信呢亲qwq</span>
-                <br>
-                <span>QQ：2921048707</span>
-            </div>
-        </div>
-        <div style="text-align: center;background-color: yellow;">
-            <span style="color: red;">未&nbsp;&nbsp;&nbsp;完</span><span style="color:yellow"><font size="1">别</font></span><span style="color:red">待&nbsp;&nbsp;&nbsp;续……</span>
-            <br>
-            <span style="color: gray;">Version:v1.7.4.0（该版本为试验性，bug可能微多）</span>
-            <br>
-            <span style="color: blue;">By MelonEater</span>
-            <br>
-            <span style="color: blue;">Ministry of Science and Technology(MOST)</span>
-            <br>
-            <span style="color: blue;">©2025 Yongshan Entertainment Co., Ltd</span>
+            <span style="color: blue;">©2025 <span style="font-family: STHUPO;">Yongshan</span> Entertainment Co., Ltd</span>
         </div>
     </body>
 </html>
