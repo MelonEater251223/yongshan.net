@@ -80,7 +80,7 @@ nav{
 }
 .time{
     position: fixed;
-    top: 95%;
+    bottom: 12px;
     right: 12px;
     font-weight: bold;
     color: lime;
